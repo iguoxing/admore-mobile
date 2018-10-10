@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.flex-col-center {
+.flex-align-center {
   display: flex;
   align-items: center;
 }
@@ -28,6 +28,11 @@ body {
 }
 .display-none {
   display: none!important;
+}
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .height-max {
   height: 100%;

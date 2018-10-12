@@ -5,6 +5,7 @@ const HomeIndexPhone = resolve => require(['@/components/admore/Index_phone'], r
 //广告官网 移动版
 const HomeMobileXCX = resolve => require(['@/components/admore/mobile/ad/Xcx'], resolve) // 小程序推广
 const HomeMobileVideo = resolve => require(['@/components/admore/mobile/ad/Video'], resolve) // 视频广告
+const HomeMobileASO = resolve => require(['@/components/admore/mobile/ad/ASO'], resolve) // ASO
 const HomeMobileKnow = resolve => require(['@/components/admore/mobile/partner/Know'],resolve) //了解推客
 const HomeMobileTask = resolve => require(['@/components/admore/mobile/partner/Task'],resolve) //任务与奖励
 
@@ -16,7 +17,8 @@ export default new Router({
     mode: 'history',
     routes: [
         // 广告官网移动版
-        {path: '/',component: HomeMobileTask},
+        {path: '/',component: HomeMobileASO},
+        {path: '/task',component: HomeMobileTask},
         {path: '/know',component: HomeMobileKnow},
         {path: '/xcx',component: HomeMobileXCX},
         {path: '/video',component: HomeMobileVideo}

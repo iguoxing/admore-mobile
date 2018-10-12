@@ -10,7 +10,10 @@
     <!-- banner content-->
     <section class="task-content">
       <div class="mobile-banner">
-        <h5 class="banner-title">任务与奖励</h5>
+        <h5 class="banner-title">
+          任务与奖励
+          <img class="banner-title-icon" src="https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home/v3/img/partner/itry.png">
+        </h5>
         <div class="banner-content">
           成为多点广告官方推广大使：客户前一万投放量每笔订<br>
           单返现 | 30日到账<br>
@@ -145,10 +148,17 @@ export default {
   color: #fff;
   font-weight: 400;
   .banner-title{
+    position: relative;
     margin-top: 0;
     margin-bottom: .18rem;
     line-height: 1.31;
     font-size: .26rem;
+    .banner-title-icon{
+      position: absolute;
+      top: -0.1rem;
+      right: .4rem;
+      width: .48rem;
+    }
   }
   .banner-content{
     margin-bottom: .2rem;

@@ -8,6 +8,7 @@ const HomeMobileVideo = resolve => require(['@/components/admore/mobile/ad/Video
 const HomeMobileASO = resolve => require(['@/components/admore/mobile/ad/ASO'], resolve) // ASO
 const HomeMobileKnow = resolve => require(['@/components/admore/mobile/partner/Know'],resolve) //了解推客
 const HomeMobileTask = resolve => require(['@/components/admore/mobile/partner/Task'],resolve) //任务与奖励
+const HomeMobileNews = resolve => require(['@/components/admore/mobile/partner/News'],resolve) //资料与动态
 
 
 Vue.use(Router)
@@ -18,6 +19,8 @@ export default new Router({
     routes: [
         // 广告官网移动版
         {path: '/',component: HomeMobileASO},
+        {path: '/news',component: HomeMobileNews},
+        {path: '/aso',component: HomeMobileASO},
         {path: '/task',component: HomeMobileTask},
         {path: '/know',component: HomeMobileKnow},
         {path: '/xcx',component: HomeMobileXCX},

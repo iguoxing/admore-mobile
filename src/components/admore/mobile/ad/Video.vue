@@ -240,45 +240,6 @@ export default {
   }
 }
 
-.second-menu{
-  margin-top: .56rem;
-  height: .5rem;
-  font-size: .15rem;
-  font-weight: 500;
-  color: #667282;
-  border-bottom: solid .01rem #eaeaea;
-  .menu-item{
-    margin-right: .5rem;
-  }
-  .menu-item.active{color: #008bff;}
-  .menu-item:last-child{
-    margin-right: 0;
-  }
-
-}
-
-.mobile-banner{
-  padding: .3rem;
-  text-align: left;
-  background-image: linear-gradient(174deg, #7b6ef7, #c689f1);
-  color: #fff;
-  font-weight: 400;
-  .banner-title{
-    margin-top: 0;
-    margin-bottom: .18rem;
-    line-height: 1.31;
-    font-size: .26rem;
-  }
-  .banner-content{
-    margin-bottom: .2rem;
-    font-size: .13rem;
-    line-height: 1.69;
-  }
-  .banner-content:last-child{margin-bottom: 0}
-}
-
-
-
 </style>
 
 

@@ -337,59 +337,6 @@ export default {
   }
 }
 
-.second-menu{
-  margin-top: .56rem;
-  height: .5rem;
-  font-size: .15rem;
-  font-weight: 500;
-  color: #667282;
-  border-bottom: solid .01rem #eaeaea;
-  .menu-item{
-    margin-right: .5rem;
-  }
-  .menu-item.active{color: #008bff;}
-  .menu-item:last-child{
-    margin-right: 0;
-  }
-
-}
-
-.mobile-banner{
-  padding: .3rem;
-  text-align: left;
-  background-image: linear-gradient(172deg, #9b6fff, #6c92ff);
-  color: #fff;
-  font-weight: 400;
-  .banner-title{
-    margin-top: 0;
-    margin-bottom: .18rem;
-    line-height: 1.31;
-    font-size: .26rem;
-  }
-  .banner-content{
-    margin-bottom: .2rem;
-    font-size: .13rem;
-    line-height: 1.69;
-  }
-  .banner-content:last-child{margin-bottom: 0}
-  .banner-btn{
-    display: block;
-    margin: 0 auto .11rem;
-    width: 1.8rem;
-    height: .42rem;
-    line-height: .42rem;
-    border-radius: .04rem;
-    box-shadow: 0 .08rem .1rem 0 #4385e8;
-    border: solid .01rem #e4e4e4;
-    background-image: linear-gradient(to bottom, #ffffff, #f5f7f9);
-    font-size: .16rem;
-    font-weight: 500;
-    color: #008bff;
-  }
-}
-
-
-
 
 </style>
 

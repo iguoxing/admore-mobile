@@ -13,7 +13,7 @@
         <div class="banner-content">直接获取你的新用户，任何类型预算级别的小程序都有机会。</div>
       </div>
       <div class="xcx-content">
-        <article class="content-aim ">
+        <article class="content-aim">
             <div class="content-title">帮你达成营销目标</div>
             <div class="aim-item">
                 <img class="aim-icon" src="https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home/img/miniprogram/aim_1.svg">
@@ -239,47 +239,4 @@ export default {
   }
 }
 
-.second-menu{
-  margin-top: .56rem;
-  height: .5rem;
-  font-size: .15rem;
-  font-weight: 500;
-  color: #667282;
-  border-bottom: solid .01rem #eaeaea;
-  .menu-item{
-    margin-right: .5rem;
-  }
-  .menu-item.active{color: #008bff;}
-  .menu-item:last-child{
-    margin-right: 0;
-  }
-
-}
-
-.mobile-banner{
-  padding: .3rem;
-  text-align: left;
-  background-image: linear-gradient(172deg, #9b6fff, #6c92ff);
-  color: #fff;
-  font-weight: 400;
-  .banner-title{
-    margin-top: 0;
-    margin-bottom: .18rem;
-    line-height: 1.31;
-    font-size: .26rem;
-  }
-  .banner-content{
-    margin-bottom: .2rem;
-    font-size: .13rem;
-    line-height: 1.69;
-  }
-  .banner-content:last-child{margin-bottom: 0}
-}
-
-
-
-
 </style>
-
-
-

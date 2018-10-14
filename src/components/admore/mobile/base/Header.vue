@@ -28,53 +28,6 @@ export default {
 }
 </script>
 <style lang="less">
-.phone-banner{
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: .18rem .3rem;
-  background: #fff;
-  border-bottom: solid .01rem #eaeaea;
-  .banner-logo{
-    width: .63rem;
-    height: .17rem;
-  }
-  .phone-nav{
-    position: relative;
-    .banner-group{
-      width: .17rem;
-      height: .15rem;
-    }
-    .nav-list{
-      position: absolute;
-      list-style: none;
-      left:-3.75rem;
-      width: 3.75rem;
-      box-shadow: 0 .28rem .15rem 0 rgba(0, 0, 0, 0.21);
-      background-color: #fff;
-      .nav-item{
-        padding: .16rem 0 .15rem;
-        border-bottom: solid .01rem #ededed;
-        .item-link{
-          color: #696969;
-          text-decoration: none;
-          font-size: .16rem;
-          font-weight: 500;
-        }
-      }
-      .nav-item.active{
-        .item-link{
-          color: #0b91ff;
-        }
-      }
-    }
-  }
-}
 
 </style>
 
